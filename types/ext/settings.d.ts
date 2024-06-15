@@ -142,6 +142,7 @@ export type GeneralOptions = {
     termDisplayMode: TermDisplayMode;
     sortFrequencyDictionary: string | null;
     sortFrequencyDictionaryOrder: SortFrequencyDictionaryOrder;
+    settingsDarkMode: SettingsDarkMode;
 };
 
 export type PopupWindowOptions = {
@@ -407,3 +408,5 @@ export type SentenceTerminationCharacterMode = 'custom' | 'custom-no-newlines' |
 export type InputsHotkeyModifier = 'alt' | 'ctrl' | 'shift' | 'meta';
 
 export type InputsHotkeyScope = 'popup' | 'search' | 'web';
+
+export type SettingsDarkMode = 'light' | 'dark';

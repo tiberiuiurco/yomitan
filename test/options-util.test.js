@@ -282,6 +282,7 @@ function createProfileOptionsUpdatedTestData1() {
             termDisplayMode: 'ruby',
             sortFrequencyDictionary: null,
             sortFrequencyDictionaryOrder: 'descending',
+            settingsDarkMode: 'light',
         },
         audio: {
             enabled: true,
